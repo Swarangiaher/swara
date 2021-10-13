@@ -1,0 +1,176 @@
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop
+$ mkdir git
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop
+$ cd git
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git
+$ touch swara.txt
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git
+$ git init
+Initialized empty Git repository in C:/Users/swara/OneDrive/Desktop/git/.git/
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ ls -a
+./  ../  .git/  swara.txt
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        swara.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ git add swara.txt
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   swara.txt
+
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ git commit -m "initial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'swara@DESKTOP-BNJBI62.(none)')
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ git config --global user.name "sidhi"
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ git config --global user.name "swara"
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ git config --global user.email "swarangiaher903@gmail.com"
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ git commit -m "initial commit"
+[master (root-commit) 95d1e7c] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 swara.txt
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ git remort add origin https://github.com/Swarangiaher/swara
+git: 'remort' is not a git command. See 'git --help'.
+
+The most similar commands are
+        remote
+        revert
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ git remote add origin https://github.com/Swarangiaher/swara
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ git push origin master
+
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+Display all 4776 possibilities? (y or n)^C^C^C^C^C
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+h
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 211 bytes | 11.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Swarangiaher/swara
+ * [new branch]      master -> master
+
+swara@DESKTOP-BNJBI62 MINGW64 ~/OneDrive/Desktop/git (master)
+$
